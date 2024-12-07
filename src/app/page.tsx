@@ -37,12 +37,13 @@ const ToDoList = () => {
 
   return (
     <main className="flex flex-col items-center justify-center h-screen">
-      <h1 className="font-semibold  text-[30px] text-[#212121] opacity-75">
+      <h1 className="font-semibold text-[30px]  text-[#212121] opacity-75">
         WELCOME TO TASK SPARK
       </h1>
-      <p className="text-[#5D80FF] font-semibold">TASKSPARK will helps you to stay organized and perform your task much faster
+      <p className=" text-[#5D80FF] font-semibold sm:text-[15px]">TASKSPARK will helps you to stay organized and perform your task much faster
       </p>
-      <div className="w-[500px] h-auto mt-6 bg-gradient-to-r from-[#99C3FC] to-[#6498E1] rounded-lg p-6">
+      <div className="md:w-[500px] sm:w-[300px] h-auto  mt-6 bg-gradient-to-r from-[#99C3FC] to-[#6498E1] rounded-lg p-6"
+      >
         <h1 className="text-center text-white font-bold text-xl mb-4">To-Do List</h1>
         <div className="flex justify-center items-center mb-4">
           <label htmlFor="task-input" className="sr-only">
